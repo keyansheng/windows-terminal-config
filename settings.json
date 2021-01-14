@@ -1,0 +1,24 @@
+{
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "disabledProfileSources": ["Windows.Terminal.Azure"],
+  "launchMode": "maximized",
+  "tabWidthMode": "titleLength",
+  "profiles": {
+    "defaults": {
+      "backgroundImage": "https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg",
+      "colorScheme": "One Half Dark",
+      "startingDirectory": "%USERPROFILE%"
+    },
+    "list": [
+      {
+        "name": "Bash",
+        "commandline": "bash.exe",
+        "icon": "https://avatars0.githubusercontent.com/u/4571183"
+      }
+    ]
+  },
+  "actions": [
+    { "command": { "action": "copy", "singleLine": false }, "keys": "ctrl+c" },
+    { "command": "paste", "keys": "ctrl+v" }
+  ]
+}
