@@ -1,30 +1,28 @@
-# Install (PowerShell)
+# Install
 
-```powershell
+```bash
 # Windows Terminal
-Set-Location $ENV:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
+git clone https://github.com/keyansheng/windows-terminal-settings ~/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState
 
 # Windows Terminal Preview
-Set-Location $ENV:LOCALAPPDATA\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState
+git clone https://github.com/keyansheng/windows-terminal-settings ~/AppData/Local/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/LocalState
 
 # Windows Terminal (Unpackaged)
-Set-Location "$ENV:LOCALAPPDATA\Microsoft\Windows Terminal"
-
-Remove-Item * -Recurse -Force
-git clone https://github.com/keyansheng/windows-terminal-settings .
+git clone https://github.com/keyansheng/windows-terminal-settings ~/AppData/Local/Microsoft/'Windows Terminal'
 ```
 
-# Update (PowerShell)
+# Update
 
-```powershell
+```bash
 # Windows Terminal
-Set-Location $ENV:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
+cd ~/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState
+git pull
 
 # Windows Terminal Preview
-Set-Location $ENV:LOCALAPPDATA\Packages\Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe\LocalState
+cd ~/AppData/Local/Packages/Microsoft.WindowsTerminalPreview_8wekyb3d8bbwe/LocalState
+git pull
 
 # Windows Terminal (Unpackaged)
-Set-Location "$ENV:LOCALAPPDATA\Microsoft\Windows Terminal"
-
+cd ~/AppData/Local/Microsoft/'Windows Terminal'
 git pull
 ```
