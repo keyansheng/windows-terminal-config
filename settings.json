@@ -7,7 +7,7 @@
     "defaults": {
       "backgroundImage": "https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg",
       "colorScheme": "One Half Dark",
-      "fontFace": "CaskaydiaCove NF",
+      "fontFace": "Cascadia Code PL",
       "startingDirectory": "%USERPROFILE%"
     },
     "list": [
