@@ -1,8 +1,11 @@
 {
   "$schema": "https://aka.ms/terminal-profiles-schema",
+  "actions": [
+    { "command": { "action": "copy", "singleLine": false }, "keys": "ctrl+c" },
+    { "command": "paste", "keys": "ctrl+v" }
+  ],
   "disabledProfileSources": ["Windows.Terminal.Azure"],
   "launchMode": "maximized",
-  "tabWidthMode": "titleLength",
   "profiles": {
     "defaults": {
       "backgroundImage": "https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg",
@@ -12,14 +15,11 @@
     },
     "list": [
       {
-        "name": "Bash",
         "commandline": "bash.exe",
-        "icon": "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico"
+        "icon": "C:/Program Files/Git/mingw64/share/git/git-for-windows.ico",
+        "name": "Bash"
       }
     ]
   },
-  "actions": [
-    { "command": { "action": "copy", "singleLine": false }, "keys": "ctrl+c" },
-    { "command": "paste", "keys": "ctrl+v" }
-  ]
+  "tabWidthMode": "titleLength"
 }
