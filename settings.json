@@ -21,5 +21,6 @@
       }
     ]
   },
-  "tabWidthMode": "titleLength"
+  "tabWidthMode": "titleLength",
+  "windowingBehavior": "useAnyExisting"
 }
