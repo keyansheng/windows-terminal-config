@@ -8,10 +8,11 @@
   "launchMode": "maximized",
   "profiles": {
     "defaults": {
-      "backgroundImage": "https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg",
+      "acrylicOpacity": 0.45,
       "colorScheme": "One Half Dark",
       "fontFace": "Cascadia Code PL",
-      "startingDirectory": "%USERPROFILE%"
+      "startingDirectory": "%USERPROFILE%",
+      "useAcrylic": true
     },
     "list": [
       {
