@@ -8,7 +8,7 @@
   "launchMode": "maximized",
   "profiles": {
     "defaults": {
-      "acrylicOpacity": 0.45,
+      "acrylicOpacity": 0.5,
       "colorScheme": "One Half Dark",
       "fontFace": "Cascadia Code PL",
       "startingDirectory": "%USERPROFILE%",
